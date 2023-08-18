@@ -1,4 +1,8 @@
-##
+## Kokiri Shop
+
+This is a fan-made e-commerce webpage based on the shops seen throughout the Legend of Zelda franchise.
+
+My intention with this project is to showcase the many different iterations of shops within the Legend of Zelda games, as well as the plethora of items that Link, (the player), comes across on his many journeys.  
 
 ## Steps
 
