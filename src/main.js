@@ -1,0 +1,9 @@
+class Test {
+    main = () => {
+        console.log('no other folks got swagger like us')
+    }
+}
+
+// test 
+const test = new Test()
+test.main()
