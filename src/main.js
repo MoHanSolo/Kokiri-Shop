@@ -1,6 +1,6 @@
 class Test {
     main = () => {
-        console.log('no other folks got swagger like us')
+        console.log('Its dangerous to go alone')
     }
 }
 
