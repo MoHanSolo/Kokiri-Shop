@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken')
 
 // point is to get rid of the bearer part
 module.exports = (req, res, next) => {
-    let token = req.get('Authorization')
+    let token = req.get('Authorization') || req.query.token
     if(token){
         token = token.split(' ')[1]
         jwt.verify(token, process.env.SECRET, (err, decoded) => {

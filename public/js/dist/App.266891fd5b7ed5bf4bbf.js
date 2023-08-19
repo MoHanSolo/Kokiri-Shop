@@ -129,6 +129,7 @@ function LoginForm(_ref) {
         // payload of the JSON Web Token (JWT)
         const user = yield _utilities_users_service__WEBPACK_IMPORTED_MODULE_1__.login(credentials);
         setUser(user);
+        console.log(user);
       } catch (_unused) {
         setError('Log In Failed - Try Again');
       }
@@ -983,6 +984,7 @@ function _sendRequest() {
       }
       const res = yield fetch(url, options);
       // res.ok will be false if the status code set to 4xx in the controller action
+      console.log(res);
       if (res.ok) return res.json();
       throw new Error('Bad Request');
     }();
