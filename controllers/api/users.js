@@ -13,9 +13,9 @@ const dataController = {
     async create (req, res, next) {
         try {
             const user = await User.create(req.body)
-            console.log(req.body)
             // token will be a string
             const token = createJWT(user)
+            console.log(token)
             // send back the token as a string to accounf fot the client
             res.locals.data.user = user
             res.locals.data.token = token
