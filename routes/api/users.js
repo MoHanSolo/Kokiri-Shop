@@ -5,15 +5,10 @@ const ensureLoggedIn = require('../../config/ensureLoggedIn')
 
 // POST /api/users
 router.post('/', dataController.create, apiController.auth)
-
 // POST /api/users/login
 router.post('/login', dataController.login, apiController.auth)
 
 // GET /api/users/check-token
 router.get('/check-token', ensureLoggedIn, checkToken)
-
-
-// PUT -> /api/users/:id for guest users
-// CREATE ROUTE 
 
 module.exports = router

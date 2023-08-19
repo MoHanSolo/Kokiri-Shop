@@ -12,7 +12,7 @@ export default function OrderHistoryPage({ user, setUser }) {
   const [orders, setOrders] = useState([]);
   const [activeOrder, setActiveOrder] = useState(null);
 
-  /*--- Effects --- */
+  /*--- Side Effects --- */
   useEffect(function () {
     // Load previous orders (paid)
     async function fetchOrderHistory() {
