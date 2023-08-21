@@ -1280,7 +1280,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.X4tFBfG4MKknHvd01CKE {
   height: 8vw;
   width: 8vw;
   font-size: 4vw;
-  background-color: var(--tan-1);
+  background-color: whitesmoke;
   border: 0.1vmin solid var(--tan-3);
   border-radius: 1vmin;
 }
@@ -1305,7 +1305,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.X4tFBfG4MKknHvd01CKE {
   font-size: 2vw;
   text-align: center;
   color: var(--text-light);
-}`, "",{"version":3,"sources":["webpack://./src/components/MenuListItem/MenuListItem.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,cAAA;EACA,wBAAA;EACA,8BAAA;EACA,kCAAA;EACA,oBAAA;EACA,gBAAA;AACJ;;AAEE;EACE,WAAA;EACA,UAAA;EACA,cAAA;EACA,8BAAA;EACA,kCAAA;EACA,oBAAA;AACJ;;AAEE;EACE,WAAA;EACA,UAAA;AACJ;;AAEE;EACE,aAAA;EACA,sBAAA;AACJ;;AAEE;EACE,gBAAA;EACA,kBAAA;EACA,wBAAA;AACJ;;AAEE;EACE,cAAA;EACA,kBAAA;EACA,wBAAA;AACJ","sourcesContent":[".MenuListItem {\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    margin-bottom: 3vmin;\r\n    padding: 2vmin;\r\n    color: var(--text-light);\r\n    background-color: var(--white);\r\n    border: .1vmin solid var(--tan-3);\r\n    border-radius: 1vmin;\r\n    font-size: 4vmin;\r\n  }\r\n  \r\n  .MenuListItem .emoji {\r\n    height: 8vw;\r\n    width: 8vw;\r\n    font-size: 4vw;\r\n    background-color: var(--tan-1);\r\n    border: .1vmin solid var(--tan-3);\r\n    border-radius: 1vmin;\r\n  }\r\n\r\n  .image {\r\n    height: 8vw;\r\n    width: 8vw;\r\n  }\r\n  \r\n  .MenuListItem .buy {\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n  \r\n  .MenuListItem .buy span {\r\n    font-size: 1.7vw;\r\n    text-align: center;\r\n    color: var(--text-light);\r\n  }\r\n  \r\n  .MenuListItem .name {\r\n    font-size: 2vw;\r\n    text-align: center;\r\n    color: var(--text-light);\r\n  }"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/MenuListItem/MenuListItem.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,cAAA;EACA,wBAAA;EACA,8BAAA;EACA,kCAAA;EACA,oBAAA;EACA,gBAAA;AACJ;;AAEE;EACE,WAAA;EACA,UAAA;EACA,cAAA;EACA,4BAAA;EACA,kCAAA;EACA,oBAAA;AACJ;;AAEE;EACE,WAAA;EACA,UAAA;AACJ;;AAEE;EACE,aAAA;EACA,sBAAA;AACJ;;AAEE;EACE,gBAAA;EACA,kBAAA;EACA,wBAAA;AACJ;;AAEE;EACE,cAAA;EACA,kBAAA;EACA,wBAAA;AACJ","sourcesContent":[".MenuListItem {\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    margin-bottom: 3vmin;\r\n    padding: 2vmin;\r\n    color: var(--text-light);\r\n    background-color: var(--white);\r\n    border: .1vmin solid var(--tan-3);\r\n    border-radius: 1vmin;\r\n    font-size: 4vmin;\r\n  }\r\n  \r\n  .MenuListItem .emoji {\r\n    height: 8vw;\r\n    width: 8vw;\r\n    font-size: 4vw;\r\n    background-color: whitesmoke;\r\n    border: .1vmin solid var(--tan-3);\r\n    border-radius: 1vmin;\r\n  }\r\n\r\n  .image {\r\n    height: 8vw;\r\n    width: 8vw;\r\n  }\r\n  \r\n  .MenuListItem .buy {\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n  \r\n  .MenuListItem .buy span {\r\n    font-size: 1.7vw;\r\n    text-align: center;\r\n    color: var(--text-light);\r\n  }\r\n  \r\n  .MenuListItem .name {\r\n    font-size: 2vw;\r\n    text-align: center;\r\n    color: var(--text-light);\r\n  }"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"MenuListItem": `X4tFBfG4MKknHvd01CKE`,
