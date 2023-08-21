@@ -1,11 +1,11 @@
 :root {
-    --white: ghostwhite;
+    --white: #bfbca3;
     // --tan-1: #FBF9F6;
     --tan-2: #E7E2DD;
     --tan-3: #E2D9D1;
     --tan-4: #9d8440;
     --orange: rgb(9, 110, 19);
-    --text-light: #8d9684;
+    // --text-light: #8d9684;
     --text-dark: black;
   }
   
@@ -20,7 +20,7 @@
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--tan-4);
+    background-color: #5929a6;
     padding: 2vmin;
     height: 100vh;
   }
@@ -79,7 +79,7 @@
   
   .form-container {
     padding: 3vmin;
-    background-color: var(--tan-1);
+    background-color: #bfbca3;
     border: .1vmin solid var(--tan-3);
     border-radius: 1vmin;
   }
