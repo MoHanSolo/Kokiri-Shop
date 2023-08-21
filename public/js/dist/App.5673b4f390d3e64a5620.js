@@ -177,7 +177,9 @@ function LoginForm(_ref) {
 function Logo() {
   return /*#__PURE__*/React.createElement("div", {
     className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Logo
-  }, /*#__PURE__*/React.createElement("div", null, "Kokiri"), /*#__PURE__*/React.createElement("div", null, "Store"));
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "https://i.imgur.com/NW08U80.png"
+  }));
 }
 
 /***/ }),
